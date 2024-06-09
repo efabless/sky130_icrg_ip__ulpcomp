@@ -1,4 +1,4 @@
-v {xschem version=3.4.4 file_version=1.2
+v {xschem version=3.4.5 file_version=1.2
 }
 G {}
 K {type=subcircuit
@@ -38,15 +38,15 @@ L 4 320 -150 340 -150 {}
 L 4 320 -150 320 -110 {}
 L 4 300 -110 320 -110 {}
 L 4 300 -130 340 -130 {}
-B 5 357.5 -232.5 362.5 -227.5 {name=dvdd dir=in}
-B 5 317.5 -232.5 322.5 -227.5 {name=avdd dir=in}
+B 5 357.5 -232.5 362.5 -227.5 {name=dvdd dir=inout}
+B 5 317.5 -232.5 322.5 -227.5 {name=avdd dir=inout}
 B 5 217.5 -92.5 222.5 -87.5 {name=ena dir=in}
 B 5 457.5 -132.5 462.5 -127.5 {name=vout dir=out}
 B 5 217.5 -142.5 222.5 -137.5 {name=vinn dir=in}
 B 5 217.5 -172.5 222.5 -167.5 {name=vinp dir=in}
 B 5 217.5 -72.5 222.5 -67.5 {name=clk dir=in}
-B 5 357.5 -32.5 362.5 -27.5 {name=dvss dir=out}
-B 5 317.5 -32.5 322.5 -27.5 {name=avss dir=out}
+B 5 357.5 -32.5 362.5 -27.5 {name=dvss dir=inout}
+B 5 317.5 -32.5 322.5 -27.5 {name=avss dir=inout}
 T {@symname} 374 -186 0 0 0.3 0.3 {}
 T {@name} 405 -242 0 0 0.2 0.2 {}
 T {dvdd} 365 -214 0 0 0.2 0.2 {}
